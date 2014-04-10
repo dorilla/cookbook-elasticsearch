@@ -38,6 +38,10 @@
 #################################### Paths ####################################
 
 <%= print_value 'path.conf' -%>
+<% puts "jfaldsijflasdjflajdf" %>
+<% puts node %>
+<% puts node.inspect %>
+<% puts "jfaldsijflasdjflajdf" %>
 <%= print_value 'path.data', (node.elasticsearch.path.data.is_a?(Array) ? node.elasticsearch.path.data.join(",") : node.elasticsearch.path.data) -%>
 <%= print_value 'path.work' -%>
 <%= print_value 'path.logs' -%>
