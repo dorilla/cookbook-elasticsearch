@@ -12,6 +12,7 @@ end
 # Install the Fog gem for Chef run
 #
 chef_gem("fog") do
+  options '--with-opt-lib /opt/chef/embedded/lib'
   version '1.22.0'
   action :install
 end
