@@ -1,2 +1,2 @@
-default.elasticsearch[:rpm_url] = "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.1.1.noarch.rpm"
-default.elasticsearch[:rpm_sha] = "9f441bb3bf945715b05c378867cda513a23e111b"
+default.elasticsearch[:rpm_url] = "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.3.2.noarch.rpm"
+default.elasticsearch[:rpm_sha] = "bd8c4041bf2d9ce68ff28f59926b5c793f96c478"
